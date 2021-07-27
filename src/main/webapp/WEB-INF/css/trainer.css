@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+.card{
+	padding:50px;
+}
+
+.label1{
+	position:relative;
+	left:250px;
+	font-size:25px;
+}
+.input1{
+	position:relative;
+	left:250px;
+}
+.card-header{
+	background-color: #548CA8; 
+	color: white;
+	 text-align:center;
+	 font-size:30px; 
+	 padding:20px;
+}

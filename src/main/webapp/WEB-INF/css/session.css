@@ -1,0 +1,344 @@
+@charset "ISO-8859-1";
+/*-------------------------------------LOGIN-------------------------------------------------------  */
+.main{
+    width:100%;
+    height:90.5vh;
+    background-image:#fff;
+}
+
+.content{
+    height:69vh;
+	position: relative;
+    top:70px;
+    left:250px;
+    padding:0px;
+    background-color: #ddd;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    
+}
+.content-admin{
+    height:69vh;
+	position: relative;
+    top:70px;
+    left:250px;
+    padding:0px;
+    background-color: #ddd; 
+    
+}
+.login-img{
+	
+	width:360px;
+	height:387px;
+	
+} 
+
+/* .img-main{
+    height: 100%;
+    width: 100%;
+    background-image: url(imgResource/windows-J_s7hzjV9i0-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    left:-15px;
+} */
+.button-box{
+	position:relative;
+	top:-350px;
+	left:400px;
+    margin-top: 40px;
+    margin-left: 30px;
+     border-radius:30px;
+    box-shadow:0 0 20px 9px #ff61241f;
+}
+ .toggle-btn1{
+    font-size: 14px;
+    font-weight: 500;
+    padding:9px 30px;
+    cursor:pointer;
+    background: transparent;
+    border:0;
+    outline:none;
+}
+
+ #btn1{
+    top:0;
+    left:0;
+    position:absolute;
+   width:120px;
+    height:100%;
+    background:linear-gradient(to right, rgba(58, 145, 102, 0.8),rgba(8, 68, 129, 0.81));
+    border-radius:30px;
+    transition:.5s;
+}
+.form-div{
+	position:absolute;
+	top:30px;
+    left:450px;
+   
+}
+.form-div-admin{
+	position:absolute;
+	top:-50px;
+    left:450px;
+   
+}
+/* .form-box{
+	position:absolute;
+	top:-50px;
+} */
+.input-group1{
+    position: relative;
+    margin: 0;
+    top:60px;
+    transition:.5s;
+}
+.input-field{
+    width:100%;
+    padding:10px 0;
+    margin:5px 0;
+    border-left:0;
+    border-right:0;
+    border-top:0;
+    border-bottom:1px solid #999; 
+    outline:none;
+    background:transparent;
+    font-size: 16px;
+}
+.submit-btn1{
+   width:150px;
+    padding:6px 20px;
+    cursor:pointer;
+    display:block;
+    margin:20px auto 0 0px;
+    background:linear-gradient(to right, rgba(58, 145, 102, 0.8),rgba(8, 68, 129, 0.81));
+    border:0;
+    outline:none;
+    border-radius:30px; 
+} 
+.check-box{
+    margin:30px 10px 30px 0;
+}
+
+.register-span{
+   color: #343333;  
+}
+.register-span a{
+	margin-left:100px;
+   color: #343333;
+   text-decoration:none;
+}
+#user{
+    left:30px;
+}
+#admin{
+    
+display: none;
+    
+}
+
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 2s;
+}
+
+.animate__animated.animate__fadeInRight {
+  --animate-duration: 2s;
+}
+.animate__animated.animate__backInDown{
+  --animate-duration: 2s;
+}
+/* -----------------------------------SESSION TRAINER---------------------------------------------------------------------- */
+.card{
+	/* padding:50px; */
+	padding:0px;
+	margin-top:-50px;
+}
+
+.label1{
+	position:relative;
+	left:250px;
+	font-size:25px;
+}
+.input1{
+	position:relative;
+	left:250px;
+}
+.card-header{
+	background-color: #548CA8; 
+	color: white;
+	 text-align:center;
+	 font-size:30px; 
+	 padding:20px;
+}
+.container{
+padding-top:100px;
+height:500px;
+}
+.btn{
+text-align:center;
+}
+/*----------------------------------------REGISTRATION--------------------------------------------------*/
+.registration-img{
+	opacity:0.5;
+	height:89vh;
+	width:100vw;
+}
+.registration-img-admin{
+	opacity:0.5;
+	height:120vh;
+	width:100vw;
+}
+.registration-form{
+	position:absolute;
+	top:170px;
+	left:400px;
+	
+}
+.registration-form-admin{
+	position:absolute;
+	top:85px;
+	left:-120px;
+	
+}
+.label2{
+	position:relative;
+	left:250px;
+	font-size:21px;
+	padding:15px;
+	font-weight:700;
+
+	
+}
+.input2{
+	position:relative;
+	left:250px;
+	height:20px;
+	padding:20px;
+	border-radius:10xpx;
+}
+.reg-submit{
+	margin-top:20px;
+margin-left:400px;
+}
+/*-------------------------------------------------------------Enroll list----------------------------------------------------------*/
+.container{
+padding-top:100px;
+height:500px;
+}
+.card-header{
+text-align:center;
+font-weight:100px;
+font-size:25px;
+background-color:#548CA8;
+}
+/*--------------------------------------------------------change password---------------------------------------------------------------------*/
+.forget-pwd > a{
+    color: #548CA8 ;
+    font-weight: 500;
+}
+.forget-password .panel-default{
+	width:400px;
+	margin-left:350px;
+	margin-top:-20px;
+}
+
+.forget-password .panel-body{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-changePassword{
+	margin-top:30px;
+	width:120px;
+	height:120px;
+}
+.btnForget{
+	margin-top:30px;
+    background: #548CA8 ;
+    border-radius:20px;
+    border:none;
+
+}
+
+/*----------------------------------------------------notification ---------------------------------------------------*/
+
+.notification-img{
+	height:89vh;
+	width:100vw;
+}
+.notification-card{
+	width:400px;
+	height:400px;
+	position:absolute;
+	top:100px;
+	left:350px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color:#fff;
+	
+} 
+
+.post-it {
+ 	width:400px;
+  height:400px;
+  background:#ffa;
+  overflow:hidden;
+  border-radius:0 0 0 70px/95px;
+  box-shadow:
+    inset 0 -40px 40px rgba(0,0,0,0.2),
+    inset 0 25px 10px rgba(0,0,0,0.2),
+    0 5px 6px 5px rgba(0,0,0,0.2);
+  font-family: 'Permanent Marker', cursive;
+  line-height:1.7em;
+  font-size:19px;
+  color:#130d6b;
+}
+/*----------------------------------------sessionDetail-------------------------------------------------*/
+.session-main{
+	width:100%;
+	height:90vh;
+	background:#7b889c;
+}
+.session-detail{
+	background-color:rgba(255, 255, 255, 0.04);;
+	width:500px;
+	position:absolute;
+	top:100px;
+	left:400px;
+	border-radius:20px;
+	border:solid 5px #fff;
+}
+.session-detail h3{
+	text-align:center;
+	margin:40px 0;
+	color:#fff;
+} 
+.form-label{
+	margin-left:70px;
+	margin-top:30px;
+	color:#fff;
+}
+.form-value{
+	position:absolute;
+	left:250px;
+	color:#fff;
+}
+.btn2{	
+width:150px;
+height:40px;
+margin:50px 0 0 180px;
+border-radius:20px;
+background-color:#548CA8;
+border:none;
+}
+.btn2 a{
+	font-size:14px;
+	text-decoration:none;
+	color:#fff;
+}
+/*---------------------------------------------------------------------------------*/
+.btnSubmit{
+	border-radius:20px;
+	width:140px;
+	margin-top:40px;
+	margin-left:450px;
+	background-color:#548CA8;
+}
